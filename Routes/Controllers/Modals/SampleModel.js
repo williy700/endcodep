@@ -1,11 +1,10 @@
 const mongoose = require("mongoose")
-
 const SampleSchema = mongoose.Schema(
 {
 
-///// title is an example of a data field structure
+////projectTitle is an example of a tiltle field and u can add other data fields
 
-title:{
+projecttitle:{
     type:String,
     required:true
 },
